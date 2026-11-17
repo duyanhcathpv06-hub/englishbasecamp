@@ -1,6 +1,6 @@
 /* English Base Camp – Service Worker
  * ĐỔI SỐ VERSION mỗi lần đăng bản mới (sửa đề, sửa code) để học sinh nhận bản mới. */
-const VERSION = 'ebc-v3';
+const VERSION = 'ebc-v5';
 const CORE = `${VERSION}-core`;
 const RUNTIME = `${VERSION}-runtime`;
 const PRECACHE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
