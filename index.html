@@ -610,9 +610,6 @@ pre,code{white-space:pre-wrap;word-break:break-word}
     <div class="ebc-shade" style="background:linear-gradient(90deg,rgba(255,255,236,.78) 0%,rgba(255,255,236,.45) 45%,rgba(255,255,236,0) 78%)"></div>
     <div class="ebc-sparkles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
     <div class="ebc-content">
-      <div class="ebc-row">
-        <span class="ebc-pill">👩‍🏫 Teacher Nguyen Thi Khanh Linh - Phone Number: <a class="tel-link" href="tel:+84857336045" onclick="event.stopPropagation()" aria-label="Gọi cô Nguyễn Thị Khánh Linh số 0857 336 045">0857.336.045</a></span>
-      </div>
       <div class="ebc-kicker">✦ Premium English Academy ✦</div>
       <h1 class="ebc-title" aria-label="English Base Camp" style="font-family:'Playfair Display',Georgia,serif"><span class="ebc-emblem" aria-hidden="true">🏕️</span><span class="ebc-word ebc-w1" aria-hidden="true">ENGLISH</span><span class="ebc-word ebc-w2" aria-hidden="true">BASE CAMP</span></h1>
       
@@ -629,10 +626,10 @@ pre,code{white-space:pre-wrap;word-break:break-word}
     <!-- Tầng 1: Logo thương hiệu + Cụm nút Chế độ Giáo viên / Học sinh / Sáng Tối + Nút ☰ Mục (1-12) -->
     <div class="flex flex-wrap items-center justify-between gap-1.5">
       <div class="flex items-center gap-1.5 cursor-pointer shrink-0" data-action="switch-tab" data-tab="create">
-        <span class="text-2xl sm:text-3xl">🛡️</span>
         <div>
           <div class="text-sm sm:text-lg font-black text-orange-500 leading-none">English Base Camp</div>
           <div class="text-[10px] sm:text-[11px] font-extrabold text-slate-600 truncate max-w-[215px] sm:max-w-none">👩‍🏫 <span class="text-orange-600">Teacher Nguyen Thi Khanh Linh</span></div>
+          <div class="mt-0.5"><a class="tel-link inline-flex items-center gap-1 rounded-full bg-amber-100 border border-amber-300 text-orange-700 px-2 py-0.5 text-[11px] sm:text-xs" style="text-decoration:none" href="tel:+84857336045" onclick="event.stopPropagation()" aria-label="Gọi cô Nguyễn Thị Khánh Linh số 0857 336 045">📞 0857.336.045</a></div>
         </div>
       </div>
       <div class="ml-auto flex flex-wrap items-center justify-end gap-1 sm:gap-1.5 min-w-0">
@@ -647,7 +644,7 @@ pre,code{white-space:pre-wrap;word-break:break-word}
       <button type="button" class="tab on" data-action="switch-tab" data-tab="create" data-stu-allow="1">⚡ 1. Tạo Nhanh Bài Tập</button>
       <button type="button" class="tab !border-pink-500 !text-pink-700" data-action="switch-tab" data-tab="preschool" data-stu-allow="1">🎲 2. Trò Chơi Cho Trẻ (3–8 tuổi)</button>
       <button type="button" class="tab !border-emerald-600 !text-emerald-800" data-action="switch-tab" data-tab="arena" data-stu-allow="1">🌍 3. Đấu Trường Quốc Tế</button>
-      <button type="button" class="tab" data-action="switch-tab" data-tab="library" data-stu-allow="1">📚 4. Kho sách</button>
+      <button type="button" class="tab" data-action="switch-tab" data-tab="library" data-stu-allow="1">📚 4. Kho tài liệu</button>
       <button type="button" class="tab teacher-only-tab" data-action="switch-tab" data-tab="assign">📬 5. Giao Bài</button>
       <button type="button" class="tab teacher-only-tab" data-action="switch-tab" data-tab="report">📊 6. Báo Cáo Điểm</button>
       <button type="button" class="tab" data-action="switch-tab" data-tab="print" data-stu-allow="1">🖨️ 7. In Phiếu A4</button>
@@ -680,7 +677,7 @@ pre,code{white-space:pre-wrap;word-break:break-word}
   </div>
 </div>
 
-<!-- Modal Quản lý & Mở Link Google Drive cho Kho sách -->
+<!-- Modal Quản lý & Mở Link Google Drive cho Kho tài liệu -->
 <div id="linkModal" class="fixed inset-0 bg-slate-900/70 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
   <div class="card max-w-lg w-full border-4 border-indigo-400">
     <div class="flex justify-between items-start gap-2 mb-2">
@@ -710,7 +707,7 @@ pre,code{white-space:pre-wrap;word-break:break-word}
           <p class="text-xs font-bold text-slate-600">Chọn nhanh khối lớp hoặc bộ sách, chọn chế độ chơi — sau đó bấm nút <b>"▶ PLAY – BẮT ĐẦU CHƠI NGAY"</b> khi bạn đã sẵn sàng!</p>
         </div>
         <div class="flex flex-wrap gap-2">
-          <button type="button" class="btn bg-indigo-600 text-xs" data-action="switch-tab" data-tab="library">📚 Mở Kho sách</button>
+          <button type="button" class="btn bg-indigo-600 text-xs" data-action="switch-tab" data-tab="library">📚 Mở Kho tài liệu</button>
           <button type="button" class="btn bg-amber-500 text-xs" data-action="reset-all-data">🔄 Khôi phục toàn bộ bài gốc</button>
         </div>
       </div>
@@ -1130,7 +1127,7 @@ pre,code{white-space:pre-wrap;word-break:break-word}
     </div>
   </section>
 
-  <!-- ==================== TAB 4: KHO SÁCH (PDF + MP3 + VIDEO + GAME TƯƠNG TÁC) ==================== -->
+  <!-- ==================== TAB 4: KHO TÀI LIỆU (PDF + MP3 + VIDEO + GAME TƯƠNG TÁC) ==================== -->
   <section id="p-library" class="panel hidden">
     <div class="card mb-4 bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-900 text-white border-indigo-500">
       <div class="flex flex-wrap items-center justify-between gap-3">
@@ -1453,6 +1450,7 @@ service cloud.firestore {
       <span id="dvProg" class="text-xs font-black text-slate-700 whitespace-nowrap">0/10 đã thuộc</span>
     </div>
   </div>
+  <div id="dvTip" class="card mb-4"></div>
   <div id="dvNote" class="dv-note hidden"></div>
   <div id="dvPlay" class="hidden card mb-4"></div>
   <div id="dvBox">
@@ -1467,6 +1465,51 @@ service cloud.firestore {
     <p class="text-xs font-bold text-slate-500 mt-3">💡 Bộ từ hôm nay giữ nguyên cả ngày; sang ngày mới sẽ đổi toàn bộ 10 từ. Các từ chỉ lặp lại khi đã đi hết kho từ của lớp (kho sẽ được xáo lại).</p>
   </div>
 </section>
+<script>
+/* Mẹo tiếng Anh mỗi ngày: đổi theo ngày, có nút nghe đọc */
+(function(){
+var T=[
+["Mẹo ngữ pháp","She goes to school every day.","Cô ấy đi học mỗi ngày.","He/she/it + động từ thêm -s/-es ở thì hiện tại đơn."],
+["Thành ngữ","Break a leg!","Chúc may mắn!","Dùng để chúc ai đó thành công trước buổi biểu diễn hay kỳ thi."],
+["Phát âm","Thank you very much.","Cảm ơn bạn rất nhiều.","Âm \"th\": đặt đầu lưỡi giữa hai hàm răng rồi thổi nhẹ, đừng đọc thành \"t\" hay \"s\"."],
+["Mẹo ngữ pháp","I have lived here for five years.","Tôi đã sống ở đây năm năm rồi.","Hiện tại hoàn thành: for + khoảng thời gian, since + mốc thời gian."],
+["Thành ngữ","It's a piece of cake.","Dễ như ăn bánh.","Dùng khi một việc rất dễ làm."],
+["Giao tiếp","Could you repeat that, please?","Bạn nhắc lại giúp mình được không?","Câu lịch sự khi em chưa nghe rõ. Có thể thêm: \"I didn't catch that.\""],
+["Mẹo ngữ pháp","There are many books on the table.","Có nhiều quyển sách trên bàn.","There is + danh từ số ít/không đếm được, There are + danh từ số nhiều."],
+["Từ dễ nhầm","Their house is over there, and they're at home.","Nhà của họ ở đằng kia, và họ đang ở nhà.","their = của họ, there = ở đó, they're = they are."],
+["Thành ngữ","It's raining cats and dogs.","Trời mưa như trút nước.","Thành ngữ chỉ cơn mưa rất to, không có mèo hay chó nào rơi xuống cả!"],
+["Phát âm","He watches TV and plays games.","Anh ấy xem TV và chơi trò chơi.","Đuôi -s đọc /s/ sau âm vô thanh, /z/ sau âm hữu thanh, /ɪz/ sau s, x, z, ch, sh."],
+["Mẹo ngữ pháp","If it rains, we will stay at home.","Nếu trời mưa, chúng ta sẽ ở nhà.","Điều kiện loại 1: If + hiện tại đơn, will + động từ nguyên mẫu."],
+["Giao tiếp","How was your day?","Hôm nay của bạn thế nào?","Câu hỏi thân thiện. Trả lời: \"It was great, thanks!\""],
+["Thành ngữ","Better late than never.","Thà muộn còn hơn không.","Dùng để động viên khi ai đó làm việc trễ nhưng vẫn làm."],
+["Mẹo ngữ pháp","He is taller than me.","Anh ấy cao hơn tôi.","So sánh hơn với tính từ ngắn: tính từ + -er + than."],
+["Từ dễ nhầm","Listen to the music and hear the birds.","Hãy nghe nhạc và nghe thấy tiếng chim.","listen (to) = chủ động lắng nghe, hear = tự nhiên nghe thấy."],
+["Mẹo ngữ pháp","I am interested in English.","Tôi hứng thú với tiếng Anh.","Nhiều tính từ đi với giới từ cố định: interested in, good at, afraid of."],
+["Thành ngữ","Practice makes perfect.","Có công mài sắt có ngày nên kim.","Luyện tập đều đặn mỗi ngày sẽ giúp em giỏi hơn."],
+["Phát âm","The ship is next to the sheep.","Con tàu ở cạnh con cừu.","ship /ɪ/ đọc ngắn, sheep /iː/ đọc dài hơn: luyện cặp âm này nhé."],
+["Giao tiếp","What does \"brave\" mean?","\"Brave\" nghĩa là gì?","Dùng để hỏi nghĩa của một từ mới. Trả lời: \"It means ...\""],
+["Mẹo ngữ pháp","I was reading when she called.","Tôi đang đọc sách thì cô ấy gọi.","Quá khứ tiếp diễn (hành động đang diễn ra) + when + quá khứ đơn (hành động xen vào)."],
+["Thành ngữ","Time flies.","Thời gian trôi nhanh.","Dùng khi vui hoặc bận mà thấy thời gian qua rất nhanh."],
+["Từ dễ nhầm","I did my homework and made a cake.","Tôi đã làm bài tập và làm một cái bánh.","do homework / do exercise, nhưng make a cake / make a mistake."],
+["Mẹo ngữ pháp","How much water do you drink?","Bạn uống bao nhiêu nước?","much + danh từ không đếm được, many + danh từ đếm được số nhiều."],
+["Giao tiếp","Thank you for your help.","Cảm ơn bạn đã giúp đỡ.","Đáp lại bằng: \"You're welcome.\" hoặc \"No problem.\""],
+["Thành ngữ","Actions speak louder than words.","Hành động quan trọng hơn lời nói.","Làm được điều gì thì có giá trị hơn chỉ nói."],
+["Mẹo ngữ pháp","He didn't go to school yesterday.","Hôm qua anh ấy không đi học.","Sau didn't dùng động từ nguyên mẫu (go), không dùng went."],
+["Phát âm","I want to record a record.","Tôi muốn thu âm một đĩa nhạc.","Nhiều từ có trọng âm khác nhau: danh từ nhấn âm 1 (REcord), động từ nhấn âm 2 (reCORD)."],
+["Mẹo từ vựng","An apple and a university.","Một quả táo và một trường đại học.","Dùng a/an theo ÂM đầu: an + nguyên âm (an apple), a + phụ âm (a university đọc /ju/)."],
+["Thành ngữ","Don't give up!","Đừng bỏ cuộc!","Câu động viên đơn giản mà rất hữu ích khi gặp bài khó."],
+["Mẹo ngữ pháp","She has already finished her homework.","Cô ấy đã làm xong bài tập rồi.","Hiện tại hoàn thành hay đi với already, just, yet, ever, never."]
+];
+var el=document.getElementById('dvTip');if(!el)return;
+var d=new Date(),i=Math.floor(Date.UTC(d.getFullYear(),d.getMonth(),d.getDate())/864e5)%T.length,x=T[i];
+el.style.background='linear-gradient(135deg,#fefce8,#fff7ed)';
+el.innerHTML='<div class="flex flex-wrap items-center gap-2 mb-1"><h3 class="font-black text-lg text-amber-700">💡 Mẹo tiếng Anh hôm nay</h3><span class="badge badge-phonics">'+x[0]+'</span></div>'
+ +'<div class="flex items-center gap-2"><div class="text-xl font-black text-slate-800">'+x[1]+'</div><button type="button" class="spk-btn" title="Nghe đọc" aria-label="Nghe đọc câu mẹo">🔊</button></div>'
+ +'<div class="text-sm font-bold text-slate-600 mt-0.5">'+x[2]+'</div>'
+ +'<div class="text-sm font-bold text-slate-700 mt-1.5 p-2 rounded-xl bg-white border-2 border-amber-200">📝 '+x[3]+'</div>';
+el.querySelector('.spk-btn').onclick=function(){try{TTA_TTS.say(x[1],{lang:'en-US',rate:.85})}catch(e){}};
+})();
+</script>
 
 <section id="p-stu" class="panel hidden">
     <div id="stu"></div>
@@ -3650,7 +3693,7 @@ const progName = p => {
 };
 
 /* ============================================================================
-   RENDER KHO SÁCH
+   RENDER KHO TÀI LIỆU
    ============================================================================ */
 function renderLibraryHub() {
   const grid = $('hubGrid');
@@ -5554,7 +5597,7 @@ document.addEventListener('click', async e => {
     fillSel(false);
     toForm(cur);
     showP('create');
-    notify(`Đã khôi phục đầy đủ ${acts.length} chuyên đề trong Kho sách!`);
+    notify(`Đã khôi phục đầy đủ ${acts.length} chuyên đề trong Kho tài liệu!`);
   } else if (act === 'hub-play-book') {
     const code = btn.dataset.prog;
     if (code === 'GRADE_EXAM' || code === 'THPT_MOCK') {
@@ -5859,6 +5902,8 @@ const accs=()=>LS('stu_acc')||{},progs=()=>LS('stu_prog')||{};
 const P=u=>({xp:0,streak:0,last:'',days:{},hist:[],nb:{},cnt:{c:0,t:0},goal:20,...(progs()[u]||{})});
 const saveP=(u,p)=>{const a=progs();a[u]=p;LS('stu_prog',a)};
 const lv=p=>Math.floor(Math.sqrt(p.xp/50))+1;
+const TITLES=['Tân binh Base Camp','Người nhóm lửa','Thợ dựng lều','Người tìm đường','Thám hiểm viên','Nhà leo núi','Đội trưởng','Trưởng đoàn','Thủ lĩnh Base Camp','Huyền thoại Base Camp'];
+const lvTitle=p=>TITLES[Math.min(lv(p),TITLES.length)-1];
 const inStu=()=>!$('p-stu').classList.contains('hidden');
 const inTeach=()=>!$('p-students').classList.contains('hidden');
 let S=null,curHw=null,review=false,boot=true;
@@ -5888,10 +5933,13 @@ function rec(r,A,mode){
   (r.details||[]).forEach(x=>{
     if(!x.q)return;
     if(x.ok&&(A.cat==='vocab'||A.prog==='DAILY'))vocabInto(p,x.q);
+    if(!x.ok){p.wc=p.wc||{};p.wc[x.q]=(p.wc[x.q]||0)+1}
+    if(review&&x.ok){p.rvd=p.rvd||{};p.rvd[t]=(p.rvd[t]||0)+1;Object.keys(p.rvd).forEach(k=>{if(k<add(t,-14))delete p.rvd[k]})}
     if(!x.ok)p.nb[x.q]={a:x.a,box:0,due:review?add(t,1):t};
     else if(review&&p.nb[x.q]){const b=p.nb[x.q].box+1;if(b>=5)delete p.nb[x.q];else{p.nb[x.q].box=b;p.nb[x.q].due=add(t,[1,2,4,8,16][b])}}
   });
-  saveP(S,p);syncCloud(S,p);notify(`+${gain} XP • Chuỗi ${curStreak(p)} ngày • Từ vựng hôm nay ${vocabToday(p)}/10`);
+  const wk=Object.keys(p.wc||{});if(wk.length>150)wk.sort((a,b)=>p.wc[a]-p.wc[b]).slice(0,wk.length-150).forEach(k=>delete p.wc[k]);
+  const qm=questSync(p);saveP(S,p);syncCloud(S,p);notify(`+${gain} XP • Chuỗi ${curStreak(p)} ngày • Từ vựng hôm nay ${vocabToday(p)}/10${qm}`);
 }
 
 /* ===== HUY HIỆU & BẢNG VÀNG: XP, chuỗi ngày (10 từ vựng/ngày), Top 10 tuần ===== */
@@ -5931,8 +5979,8 @@ function award(n,src){
 function vocabTick(w){
   if(!S||!accs()[S])return null;
   const p=P(S),r=vocabInto(p,w);if(!r.added)return r;
-  p.xp+=5;addWeek(p,5);saveP(S,p);syncCloud(S,p);
-  if(r.qualified)notify(`🔥 Đủ 10 từ hôm nay! Chuỗi ${curStreak(p)} ngày (+30 XP)`);
+  p.xp+=5;addWeek(p,5);const qm=questSync(p);saveP(S,p);syncCloud(S,p);
+  if(r.qualified)notify(`🔥 Đủ 10 từ hôm nay! Chuỗi ${curStreak(p)} ngày (+30 XP)${qm}`);else if(qm)notify('🧭'+qm);
   return r;
 }
 async function topWeek(){
@@ -5951,7 +5999,7 @@ async function renderBoard(el){
   if(!el)return;
   const mine=S&&accs()[S]?{a:accs()[S],p:P(S)}:null;
   const head=mine?`<div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center mb-3">
-    <div class="p-2 rounded-xl bg-amber-50 border border-amber-200"><div class="text-xl font-black text-orange-500">Lv ${lv(mine.p)}</div><div class="text-[11px] font-bold">${mine.p.xp} XP tổng</div></div>
+    <div class="p-2 rounded-xl bg-amber-50 border border-amber-200"><div class="text-xl font-black text-orange-500">Lv ${lv(mine.p)}</div><div class="text-[11px] font-bold">${mine.p.xp} XP tổng</div><div class="text-[10px] font-black text-amber-700">${lvTitle(mine.p)}</div></div>
     <div class="p-2 rounded-xl bg-indigo-50 border border-indigo-200"><div class="text-xl font-black text-indigo-600">${weekXp(mine.p)}</div><div class="text-[11px] font-bold">XP tuần này</div></div>
     <div class="p-2 rounded-xl bg-rose-50 border border-rose-200"><div class="text-xl font-black text-rose-500">🔥 ${curStreak(mine.p)}</div><div class="text-[11px] font-bold">ngày liên tiếp</div></div>
     <div class="p-2 rounded-xl bg-emerald-50 border border-emerald-200"><div class="text-xl font-black text-emerald-600">${vocabToday(mine.p)}/10</div><div class="text-[11px] font-bold">từ vựng hôm nay</div></div></div>`
@@ -5989,6 +6037,39 @@ window.EBC_XP={award,vocab:vocabTick,renderBoard,me:()=>S&&accs()[S]?{id:S,...ac
 window.EBC_GATE={enter,ok:()=>!!(S&&accs()[S]),last:lastLogin};
 const _pl=play;window.play=(m,A,el,cb)=>_pl(m,A,el,r=>{rec(r,A,m);cb(r)});
 
+/* ===== NHIỆM VỤ HÔM NAY (+15 XP mỗi nhiệm vụ, xong hết +30 XP) ===== */
+function quests(p){
+  const t=dstr(),nbN=Object.keys(p.nb).length,c=(p.days[t]||{}).c||0,rv=((p.rvd||{})[t])||0;
+  return [
+    {id:'a',ic:'🎯',t:'Làm đúng 10 câu',v:Math.min(c,10),n:10},
+    {id:'b',ic:'📒',t:'Ôn 5 câu trong Sổ tay',v:Math.min(rv,5),n:5,skip:nbN===0&&rv===0},
+    {id:'c',ic:'📅',t:'Học 10 từ vựng hôm nay',v:Math.min(vocabToday(p),10),n:10}
+  ];
+}
+function questSync(p){
+  const t=dstr();p.qd=p.qd||{};Object.keys(p.qd).forEach(k=>{if(k<add(t,-14))delete p.qd[k]});
+  const g=p.qd[t]=p.qd[t]||{},Q=quests(p).filter(q=>!q.skip);let xp=0,msg='';
+  Q.forEach(q=>{if(q.v>=q.n&&!g[q.id]){g[q.id]=1;xp+=15;msg+=' ✅ '+q.t}});
+  if(Q.length&&Q.every(q=>g[q.id])&&!g.all){g.all=1;xp+=30;p.qfull=(p.qfull||0)+1;msg+=' 🎉 Xong nhiệm vụ ngày (+30 XP)'}
+  if(xp){p.xp+=xp;addWeek(p,xp);return ` • 🧭 +${xp} XP:${msg}`}
+  return '';
+}
+/* ===== LỜI NHẮN CỦA CÔ (Firestore: asg/NOTE_ALL hoặc asg/NOTE_<lớp>) ===== */
+const notePick=(n,a)=>n&&((a.cls&&n['NOTE_'+slug(a.cls)])||n.NOTE_ALL)||null;
+function noteHTML(x){
+  if(!x||!x.text)return '';
+  return `<div class="mb-2 p-2.5 rounded-2xl bg-yellow-50 border-2 border-yellow-300"><div class="text-[11px] font-black text-amber-700">💌 Lời nhắn của cô${x.cls?' gửi lớp '+esc(x.cls):''} • ${new Date(x.at||Date.now()).toLocaleDateString('vi-VN')}</div><div class="text-sm font-bold text-slate-800 whitespace-pre-line">${esc(x.text)}</div></div>`;
+}
+async function refreshNote(a){
+  const d=cloudDb();let n=LS('ebc_note')||null;
+  if(d){try{
+    const out={};
+    for(const id of ['NOTE_ALL',...(a.cls?['NOTE_'+slug(a.cls)]:[])]){const sn=await d.collection('asg').doc(id).get();out[id]=sn.exists?sn.data():null}
+    n=out;LS('ebc_note',n);
+  }catch(e){}}
+  const el=document.getElementById('ebcNote');if(el)el.innerHTML=noteHTML(notePick(n,a));
+}
+
 /* ---- Giao diện học sinh ---- */
 const loginHTML=()=>`<div class="card mini-login"><span class="ml-t">🎒 Học sinh</span><label for="lgN" class="text-sm font-black text-slate-700">Họ và tên <span class="text-rose-600" title="Bắt buộc" aria-hidden="true">*</span><span class="sr-only"> (bắt buộc)</span></label><input id="lgN" class="inp !border-rose-300" placeholder="Họ và tên (bắt buộc)" autocomplete="name" aria-label="Họ và tên (bắt buộc)" aria-required="true" required value="${esc(lastLogin().name||'')}"><input id="lgC" class="inp" style="flex:0 1 7rem" placeholder="Lớp (nếu có)" aria-label="Lớp (không bắt buộc)" maxlength="12" value="${esc(lastLogin().cls||'')}"><button type="button" class="btn bg-emerald-600" data-sx="enter">Vào học 🚀</button><div id="lgMsg" class="text-xs font-black text-rose-600 w-full empty:hidden"></div><details><summary>ℹ️ Vì sao cần nhập tên &amp; lớp?</summary><p class="text-[11px] font-bold text-slate-500 mt-1">Không cần tài khoản hay mật khẩu. Mỗi lần vào học, em chỉ cần điền <b>họ và tên (*)</b> – máy tự nhớ lần trước, em kiểm tra lại là được. Có thể ghi thêm lớp để nhận bài thầy cô giao cho lớp. Tên dùng để lưu XP, chuỗi ngày học và sổ tay từ cần ôn trên thiết bị này.</p></details></div>`;
 
@@ -6001,24 +6082,41 @@ function dashHTML(){
     const h=p.hist.filter(k=>k.hw===x.code),late=x.due&&new Date(x.due+'T23:59:59')<new Date();
     return `<div class="flex flex-wrap items-center gap-2 py-1.5 border-b text-sm font-bold"><span class="badge badge-vocab">${esc(x.code)}</span><span>${esc(actLabel(x.act))}</span><span class="ml-auto">${h.length?'✅ '+Math.max(...h.map(k=>k.score))+'/10':late?'⛔ Quá hạn':x.due?'📅 '+esc(x.due):'⏳ Chưa làm'}</span><button type="button" class="btn bg-orange-500 !py-1 !px-2.5 !text-xs" data-action="test-hw-code" data-code="${esc(x.code)}">${h.length?'Làm lại':'Làm bài'}</button></div>`}).join('')||'<p class="text-sm font-bold text-slate-500">Chưa có bài tập nào được giao cho lớp em.</p>';
   const board=pm.board?Object.entries(accs()).filter(([u,x])=>x.cls===a.cls&&x.active!==false).map(([u,x])=>[x.name.split(' ').pop(),P(u).xp,u]).sort((x,y)=>y[1]-x[1]).slice(0,5).map((r,i)=>`<div class="flex gap-2 py-1 text-sm font-bold ${r[2]===S?'text-orange-600':''}"><span>${['🥇','🥈','🥉','4️⃣','5️⃣'][i]}</span><span>${esc(r[0])}</span><span class="ml-auto">${r[1]} XP</span></div>`).join(''):'';
-  const badges=[[p.hist.length>=1,'🌱 Khởi động'],[curStreak(p)>=3,'🔥 Chuỗi 3 ngày'],[curStreak(p)>=7,'🏅 Chuỗi 7 ngày'],[curStreak(p)>=14,'🏆 Chuỗi 14 ngày'],[p.xp>=500,'⚡ 500 XP'],[p.xp>=2000,'👑 2000 XP'],[p.hist.some(h=>h.score>=10),'💯 Điểm 10'],[p.cnt.c>=100,'🎯 100 câu đúng'],[p.hist.some(h=>h.rv),'📒 Chăm ôn tập']].map(([ok,n])=>`<span class="badge ${ok?'badge-phonics':'bg-slate-100 text-slate-400 border-2 border-slate-200'}">${n}</span>`).join(' ');
+  const bdg=[[p.hist.length>=1,'🌱 Khởi động'],[curStreak(p)>=3,'🔥 Chuỗi 3 ngày'],[curStreak(p)>=7,'🏅 Chuỗi 7 ngày'],[curStreak(p)>=14,'🏆 Chuỗi 14 ngày'],[p.xp>=500,'⚡ 500 XP'],[p.xp>=2000,'👑 2000 XP'],[p.hist.some(h=>h.score>=10),'💯 Điểm 10'],[p.cnt.c>=100,'🎯 100 câu đúng'],[p.hist.some(h=>h.rv),'📒 Chăm ôn tập'],
+    [p.hist.some(h=>{const x=new Date(h.at).getHours();return x>=21||x<4}),'🦉 Cú đêm'],
+    [p.hist.some(h=>{const x=new Date(h.at).getHours();return x>=4&&x<7}),'🌅 Dậy sớm'],
+    [curStreak(p)>=5,'📆 Học 5 ngày liên tiếp'],
+    [(()=>{const l=hwItems();return !!(l&&l.length&&l.every(i=>i.done))})(),'✅ Xong mọi bài được giao'],
+    [(p.qfull||0)>=1,'🧭 Nhiệm vụ hoàn hảo']];const badges=bdg.map(([ok,n])=>`<span class="badge ${ok?'badge-phonics':'bg-slate-100 text-slate-400 border-2 border-slate-200'}">${n}</span>`).join(' ');
   const recent=p.hist.slice(0,5).map(h=>`<div class="text-xs font-bold py-1 border-b flex gap-2"><span class="text-slate-400">${new Date(h.at).toLocaleDateString('vi-VN')}</span><span>${esc(h.t)}</span><span class="ml-auto text-orange-600">${h.score}/10</span></div>`).join('')||'<p class="text-xs font-bold text-slate-500">Chưa có lượt làm bài nào.</p>';
-  return `<div class="card max-w-5xl mx-auto mb-5">
-  <div class="flex flex-wrap items-center gap-3 mb-3"><div class="text-5xl">${esc(a.av||'🦊')}</div>
-   <div><div class="text-xl font-black">${esc(a.name)} ${a.cls?`<span class="badge badge-vocab">Lớp ${esc(a.cls)}</span>`:''}</div><div class="text-xs font-bold text-slate-500">Học sinh • dữ liệu lưu trên thiết bị này</div></div>
-   <button type="button" class="btn bg-slate-600 !text-xs ml-auto" data-sx="logout">🔄 Đổi người học</button></div>
-  <div class="grid sm:grid-cols-4 gap-2 mb-3 text-center">
-   <div class="p-2 rounded-xl bg-amber-50 border border-amber-200"><div class="text-2xl font-black text-orange-500">Lv ${L}</div><div class="text-[11px] font-bold">${p.xp} XP</div><div class="h-2 bg-amber-100 rounded-full mt-1"><div class="h-2 bg-orange-400 rounded-full" style="width:${pct}%"></div></div></div>
-   <div class="p-2 rounded-xl bg-rose-50 border border-rose-200"><div class="text-2xl font-black text-rose-500">🔥 ${curStreak(p)}</div><div class="text-[11px] font-bold">ngày liên tiếp • ${vocabToday(p)}/10 từ hôm nay</div></div>
-   <div class="p-2 rounded-xl bg-sky-50 border border-sky-200"><div class="text-2xl font-black text-sky-600">${acc}%</div><div class="text-[11px] font-bold">chính xác • ${p.hist.length} lượt</div></div>
-   <div class="p-2 rounded-xl bg-emerald-50 border border-emerald-200"><div class="text-2xl font-black text-emerald-600">${today}/${p.goal}</div><div class="text-[11px] font-bold">câu hôm nay</div><div class="h-2 bg-emerald-100 rounded-full mt-1"><div class="h-2 bg-emerald-500 rounded-full" style="width:${gp}%"></div></div></div></div>
-  <div class="mb-3">${badges}</div>
-  <div class="grid md:grid-cols-2 gap-3">
-   <div class="p-3 rounded-2xl border bg-white"><div class="font-black mb-1">📬 Bài thầy cô giao ${a.cls?'cho lớp '+esc(a.cls):'cho em'}</div>${hw}</div>
-   <div class="p-3 rounded-2xl border bg-white"><div class="font-black mb-1">📒 Sổ tay từ cần ôn</div><p class="text-sm font-bold text-slate-600 mb-2">Các câu em làm sai được lưu lại và ôn theo lịch lặp lại ngắt quãng. Hôm nay cần ôn: <b class="text-orange-600">${due}</b> câu (tổng ${Object.keys(p.nb).length}).</p><button type="button" class="btn bg-indigo-600" data-sx="review">▶ Ôn tập ngay</button></div>
-   <div class="p-3 rounded-2xl border bg-white"><div class="font-black mb-1">📈 Câu đúng 14 ngày qua</div><svg viewBox="0 0 312 70" class="w-full h-20" role="img" aria-label="Biểu đồ câu đúng 14 ngày">${bars}</svg><div class="font-black mt-2 mb-1">🕘 Gần đây</div>${recent}</div>
-   <div class="p-3 rounded-2xl border bg-white">${pm.board?`<div class="font-black mb-1">🏆 Bảng xếp hạng${a.cls?' lớp '+esc(a.cls):''}</div>${board}`:''}
-    </div>
+  const nb=bdg.filter(x=>x[0]).length;
+  const Q=quests(p),qdone=Q.filter(q=>!q.skip&&q.v>=q.n).length,qtot=Q.filter(q=>!q.skip).length;
+  const qh=Q.map(q=>{const ok=!q.skip&&q.v>=q.n;return `<div class="mb-1.5"><div class="flex items-center gap-1.5 text-xs font-bold"><span>${q.skip?'➖':ok?'✅':q.ic}</span><span class="${ok?'line-through text-slate-400':''}">${q.t}</span><span class="ml-auto text-slate-500">${q.skip?'chưa có từ cần ôn':q.v+'/'+q.n}</span></div><div class="h-1.5 bg-slate-100 rounded-full mt-0.5"><div class="h-1.5 ${ok?'bg-emerald-500':'bg-sky-400'} rounded-full" style="width:${q.skip?0:Math.round(q.v/q.n*100)}%"></div></div></div>`}).join('');
+  const wk0=weekKey(),days7=['T2','T3','T4','T5','T6','T7','CN'].map((n,k)=>{const d=add(wk0,k),on=((p.days[d]||{}).n>0)||(((p.vd||{})[d]||[]).length>0),fut=d>t,isT=d===t;return {n,d,on,fut,isT}});
+  const cal=days7.map(x=>`<div class="flex-1 text-center rounded-xl py-1 border ${x.on?'bg-orange-100 border-orange-300':x.isT?'bg-white border-2 border-sky-400':'bg-slate-50 border-slate-200'} ${x.fut?'opacity-50':''}"><div class="text-[10px] font-black ${x.isT?'text-sky-700':'text-slate-500'}">${x.n}</div><div class="text-base leading-none">${x.on?'🔥':x.fut?'·':x.isT?'⭐':'⬜'}</div></div>`).join('');
+  const hard=Object.entries(p.nb).map(([q,v])=>[q,v.a,(p.wc||{})[q]||1]).sort((x,y)=>y[2]-x[2]).slice(0,5);
+  const hardH=hard.length?hard.map(([q,a2,c])=>`<div class="flex gap-2 py-1 border-b text-sm font-bold"><span>${esc(q)}</span><span class="text-slate-500">→ ${esc(a2)}</span><span class="ml-auto text-rose-500 whitespace-nowrap">sai ${c} lần</span></div>`).join('')+`<button type="button" class="btn bg-rose-500 !text-xs !py-1 !px-3 mt-2" data-sx="reviewtop">▶ Ôn riêng ${hard.length} từ này</button>`:'<p class="text-xs font-bold text-slate-500">Chưa có từ nào hay sai – em giỏi lắm! 🎉</p>';
+  setTimeout(()=>refreshNote(a),0);
+  return `<div class="card max-w-5xl mx-auto mb-3 !p-3">
+  <div class="flex items-center gap-2 mb-2"><div class="text-3xl">${esc(a.av||'🦊')}</div>
+   <div class="min-w-0"><div class="text-base font-black truncate">${esc(a.name)} ${a.cls?`<span class="badge badge-vocab">Lớp ${esc(a.cls)}</span>`:''}</div><div class="text-[11px] font-bold text-slate-500"><span class="text-amber-700 font-black">🏕️ ${lvTitle(p)}</span> • dữ liệu lưu trên thiết bị này</div></div>
+   <button type="button" class="btn bg-slate-600 !text-[11px] !py-1 !px-2.5 ml-auto shrink-0" data-sx="logout">🔄 Đổi người học</button></div>
+  <div id="ebcNote">${noteHTML(notePick(LS('ebc_note'),a))}</div>
+  <div class="grid grid-cols-4 gap-1.5 mb-2 text-center">
+   <div class="p-1.5 rounded-xl bg-amber-50 border border-amber-200"><div class="text-lg font-black text-orange-500 leading-tight">Lv ${L}</div><div class="text-[10px] font-bold">${p.xp} XP</div><div class="h-1.5 bg-amber-100 rounded-full mt-1"><div class="h-1.5 bg-orange-400 rounded-full" style="width:${pct}%"></div></div></div>
+   <div class="p-1.5 rounded-xl bg-rose-50 border border-rose-200"><div class="text-lg font-black text-rose-500 leading-tight">🔥 ${curStreak(p)}</div><div class="text-[10px] font-bold">ngày • ${vocabToday(p)}/10 từ</div></div>
+   <div class="p-1.5 rounded-xl bg-sky-50 border border-sky-200"><div class="text-lg font-black text-sky-600 leading-tight">${acc}%</div><div class="text-[10px] font-bold">chính xác • ${p.hist.length} lượt</div></div>
+   <div class="p-1.5 rounded-xl bg-emerald-50 border border-emerald-200"><div class="text-lg font-black text-emerald-600 leading-tight">${today}/${p.goal}</div><div class="text-[10px] font-bold">câu hôm nay</div><div class="h-1.5 bg-emerald-100 rounded-full mt-1"><div class="h-1.5 bg-emerald-500 rounded-full" style="width:${gp}%"></div></div></div></div>
+  <div class="grid md:grid-cols-2 gap-2 mb-2">
+   <div class="p-2.5 rounded-2xl border bg-white"><div class="font-black text-sm mb-1.5">🧭 Nhiệm vụ hôm nay (${qdone}/${qtot})</div>${qh}<div class="text-[10px] font-bold text-slate-400">+15 XP mỗi nhiệm vụ • xong tất cả thưởng thêm +30 XP</div></div>
+   <div class="p-2.5 rounded-2xl border bg-white"><div class="font-black text-sm mb-1.5">📆 Điểm danh tuần này (${days7.filter(x=>x.on).length}/7 ngày)</div><div class="flex gap-1">${cal}</div><div class="text-[10px] font-bold text-slate-400 mt-1.5">🔥 ngày có học • ⭐ hôm nay • ⬜ ngày bỏ lỡ</div></div></div>
+  <details class="mb-2"><summary class="cursor-pointer text-sm font-black">🏅 Huy hiệu (${nb}/${bdg.length})</summary><div class="mt-1.5">${badges}</div></details>
+  <div class="grid md:grid-cols-2 gap-2">
+   <div class="p-2.5 rounded-2xl border bg-white"><div class="font-black text-sm mb-1">📬 Bài thầy cô giao ${a.cls?'cho lớp '+esc(a.cls):'cho em'}</div>${hw}</div>
+   <div class="p-2.5 rounded-2xl border bg-white flex flex-wrap items-center gap-2"><div class="font-black text-sm">📒 Sổ tay từ cần ôn</div><div class="text-xs font-bold text-slate-600">Hôm nay cần ôn: <b class="text-orange-600">${due}</b> câu (tổng ${Object.keys(p.nb).length})</div><button type="button" class="btn bg-indigo-600 !text-xs !py-1 !px-3 ml-auto" data-sx="review">▶ Ôn tập ngay</button></div>
+   <details class="p-2.5 rounded-2xl border bg-white"><summary class="cursor-pointer font-black text-sm">🧠 Top 5 từ em hay sai</summary><div class="mt-1">${hardH}</div></details>
+   <details class="p-2.5 rounded-2xl border bg-white"><summary class="cursor-pointer font-black text-sm">📈 Câu đúng 14 ngày qua &amp; 🕘 Gần đây</summary><svg viewBox="0 0 312 70" class="w-full h-16 mt-1" role="img" aria-label="Biểu đồ câu đúng 14 ngày">${bars}</svg><div class="font-black text-sm mt-1 mb-1">🕘 Gần đây</div>${recent}</details>
+   ${pm.board?`<details class="p-2.5 rounded-2xl border bg-white md:col-span-2"><summary class="cursor-pointer font-black text-sm">🏆 Bảng xếp hạng${a.cls?' lớp '+esc(a.cls):''}</summary><div class="mt-1">${board}</div></details>`:''}
   </div></div>`;
 }
 /* ---- Mục 13: Làm bài tập về nhà ---- */
@@ -6097,10 +6195,13 @@ $('p-sec').insertAdjacentHTML('afterend',`<section id="p-students" class="panel 
  <div class="card mb-4"><h2 class="text-2xl font-black mb-1">👥 Quyền & tiến độ học sinh</h2>
   <p class="text-xs font-bold text-slate-600 mb-3">Học sinh chỉ cần nhập thông tin (tên + lớp), không cần cấp tài khoản. Tiến độ lưu trên trình duyệt của từng thiết bị. Dưới đây là quyền áp dụng chung cho mọi học sinh.</p>
   <div class="grid sm:grid-cols-2 gap-2 font-bold text-sm">
-   <label class="flex items-center gap-2"><input type="checkbox" data-sx-perm="practice" class="w-5 h-5 accent-orange-500"> Cho phép tự luyện ở Kho sách &amp; đề thi</label>
+   <label class="flex items-center gap-2"><input type="checkbox" data-sx-perm="practice" class="w-5 h-5 accent-orange-500"> Cho phép tự luyện ở Kho tài liệu &amp; đề thi</label>
    <label class="flex items-center gap-2"><input type="checkbox" data-sx-perm="createExam" class="w-5 h-5 accent-orange-500"> Cho phép học sinh tự tạo đề kiểm tra &amp; soạn bài ôn luyện</label>
    <label class="flex items-center gap-2"><input type="checkbox" data-sx-perm="retry" class="w-5 h-5 accent-orange-500"> Cho phép làm lại bài giao</label>
    <label class="flex items-center gap-2"><input type="checkbox" data-sx-perm="board" class="w-5 h-5 accent-orange-500"> Hiện bảng xếp hạng lớp</label></div></div>
+ <div class="card mb-4"><h3 class="font-black text-lg mb-1">💌 Lời nhắn gửi học sinh</h3><p class="text-xs font-bold text-slate-600 mb-2">Hiện ở đầu Góc Học Sinh. Để trống ô lớp = gửi cho mọi lớp. Mỗi lớp (hoặc "tất cả") chỉ giữ 1 lời nhắn mới nhất.</p>
+  <div class="flex flex-wrap gap-2 mb-2"><input id="ntCls" class="inp" style="flex:0 1 9rem;width:auto" placeholder="Lớp (VD: 4A)" maxlength="12"><button type="button" class="btn bg-emerald-600 !text-xs" data-sx="notesend">📤 Gửi lời nhắn</button><button type="button" class="btn bg-slate-500 !text-xs" data-sx="notedel">🗑 Xóa lời nhắn</button></div>
+  <textarea id="ntTxt" class="inp" rows="3" maxlength="300" placeholder="Ví dụ: Tuần này các em nhớ làm bài giao về nhà và học đủ 10 từ mỗi ngày nhé! 💪"></textarea></div>
  <div class="card"><h3 class="font-black text-lg mb-2">📋 Tiến độ học sinh trên thiết bị này</h3><div id="rsTable"></div></div></section>`);
 function roster(){
   const pm=perm();document.querySelectorAll('[data-sx-perm]').forEach(c=>c.checked=!!pm[c.dataset.sxPerm]);
@@ -6116,12 +6217,21 @@ document.addEventListener('click',async e=>{
   const b=e.target.closest('[data-sx]');if(!b)return;const k=b.dataset.sx,u=b.dataset.u;
   if(k==='enter'){const m=enter($('lgN').value,$('lgC').value);if(m){$('lgMsg').textContent=m;try{$('lgN').focus()}catch(e){}}else{notify('Xin chào '+accs()[S].name+'!');window.TTAgreet&&TTAgreet(accs()[S].name.split(' ').pop());stuHome()}}
   else if(k==='logout'){setS(null);stuHome()}
-  else if(k==='review'&&S){
-    const p=P(S),t=dstr(),d=Object.entries(p.nb).filter(([q,v])=>v.due<=t).slice(0,10);
-    if(d.length<2)return notify('Hôm nay chưa đủ từ cần ôn (cần ít nhất 2 câu). Em làm thêm bài tự luyện nhé!');
-    const A={id:'review',prog:'ÔN TẬP',grade:0,unit:0,cat:'vocab',title:'Sổ tay từ cần ôn',items:d.map(([q,v])=>({q,a:v.a,h:'📒',pos:'Sổ tay'}))};
+  else if((k==='review'||k==='reviewtop')&&S){
+    const p=P(S),t=dstr(),d=k==='reviewtop'?Object.entries(p.nb).sort((x,y)=>((p.wc||{})[y[0]]||1)-((p.wc||{})[x[0]]||1)).slice(0,5):Object.entries(p.nb).filter(([q,v])=>v.due<=t).slice(0,10);
+    if(d.length<2)return notify(k==='reviewtop'?'Sổ tay cần ít nhất 2 từ để ôn riêng nhé. Em làm thêm bài tự luyện nhé!':'Hôm nay chưa đủ từ cần ôn (cần ít nhất 2 câu). Em làm thêm bài tự luyện nhé!');
+    const A={id:'review',prog:'ÔN TẬP',grade:0,unit:0,cat:'vocab',title:k==='reviewtop'?'Ôn riêng các từ hay sai':'Sổ tay từ cần ôn',items:d.map(([q,v])=>({q,a:v.a,h:'📒',pos:'Sổ tay'}))};
     review=true;$('stu').innerHTML='<div class="max-w-3xl mx-auto"><button type="button" class="btn bg-slate-600 text-xs mb-3" data-action="stu-home">↩ Quay lại</button><div id="gs" class="card"></div></div>';
     play('quiz',A,$('gs'),r=>{review=false;$('gs').innerHTML=resHTML(r)+'<div class="my-3">'+detHTML(r.details)+'</div><div class="text-center"><button type="button" class="btn bg-sky-500" data-action="stu-home">↩ Về trang cá nhân</button></div>'});
+  }
+  else if((k==='notesend'||k==='notedel')&&inTeach()){
+    const cls=$('ntCls').value.trim().toUpperCase(),id='NOTE_'+(cls?slug(cls):'ALL'),text=$('ntTxt').value.trim().slice(0,300),n=LS('ebc_note')||{},d=cloudDb();
+    if(k==='notesend'&&!text)return notify('Cô nhập nội dung lời nhắn trước nhé.',true);
+    const doc={code:id,type:'TEACHER_NOTE',cls,text,at:Date.now()};
+    if(k==='notesend')n[id]=doc;else delete n[id];LS('ebc_note',n);
+    if(!d)return notify('Đã lưu trên thiết bị này. Kết nối Firebase để học sinh ở thiết bị khác cũng thấy lời nhắn.');
+    try{if(k==='notesend'){await d.collection('asg').doc(id).set(doc);notify('💌 Đã gửi lời nhắn '+(cls?'cho lớp '+cls:'cho tất cả học sinh')+'!')}else{await d.collection('asg').doc(id).delete();$('ntTxt').value='';notify('🗑 Đã xóa lời nhắn.')}}
+    catch(err){notify('Chưa gửi được lên Firebase: cô cần đăng nhập tài khoản giáo viên.',true)}
   }
   else if(k==='del'&&inTeach()){if(!confirm('Xóa hồ sơ và toàn bộ tiến độ học tập của em này?'))return;const A=accs(),G=progs();delete A[u];delete G[u];LS('stu_acc',A);LS('stu_prog',G);roster()}
 });
@@ -7962,7 +8072,7 @@ document.addEventListener('click',e=>{
   ];
 
 
-  /* ====== 10 CHỦ ĐỀ MỚI (39–48) CHO BÉ 3–8 TUỔI: mỗi từ có hình biểu tượng rõ ràng, nghĩa tiếng Việt đã rà soát ====== */
+  /* ====== CHỦ ĐỀ MỚI (39–69) CHO BÉ 3–8 TUỔI: mỗi từ có hình biểu tượng rõ ràng, nghĩa tiếng Việt đã rà soát ====== */
   const pkMk2 = (id, unit, cat, title, tag, rows) => pkMk(id, unit, cat, 'Bé (3–8T): ' + unit + '. ' + title, tag, rows);
   const NEW_PK_TOPICS = [
     pkMk2('pk_birds', 39, 'vocab', 'Chim Chóc (Birds)', 'Birds', [
@@ -8006,7 +8116,50 @@ document.addEventListener('click',e=>{
     pkMk2('pk_breakfast', 48, 'vocab', 'Bữa Sáng (Breakfast)', 'Breakfast', [
       ['bread','Bánh mì','🍞'],['croissant','Bánh sừng bò','🥐'],['baguette','Bánh mì dài kiểu Pháp','🥖'],['bagel','Bánh vòng bagel','🥯'],
       ['fried egg','Trứng ốp la','🍳'],['bacon','Thịt xông khói','🥓'],['milk','Sữa','🥛'],['cereal','Ngũ cốc ăn sáng','🥣'],
-      ['cheese','Phô mai','🧀'],['honey','Mật ong','🍯']])
+      ['cheese','Phô mai','🧀'],['honey','Mật ong','🍯']]),
+    /* ====== 21 CHỦ ĐỀ MỚI (49–69): nâng tổng lên 69 chủ đề cho bé 3–8 tuổi ====== */
+    pkMk2('pk_arts', 49, 'vocab', 'Võ Thuật & Biểu Diễn (Martial Arts & Shows)', 'Martial Arts & Shows', [
+      ['karate','Võ ka-ra-tê','🥋'],['boxing','Đấm bốc','🥊'],['archery','Bắn cung','🏹'],['fencing','Đấu kiếm','🤺'],['ballet','Múa ba lê','🩰'],['theater','Nhà hát','🎭'],['movie','Bộ phim','🎬'],['film reel','Cuộn phim','🎞️']]),
+    pkMk2('pk_dino', 50, 'vocab', 'Khủng Long (Dinosaurs)', 'Dinosaurs', [
+      ['T-rex','Khủng long bạo chúa','🦖'],['long-neck dinosaur','Khủng long cổ dài','🦕'],['footprint','Dấu chân','🐾'],['meteor','Thiên thạch','☄️'],['skeleton','Bộ xương','💀'],['dino egg','Trứng khủng long','🥚'],['crocodile','Cá sấu','🐊'],['lizard','Con thằn lằn','🦎']]),
+    pkMk2('pk_bathroom', 51, 'vocab', 'Phòng Tắm (Bathroom)', 'Bathroom', [
+      ['toilet paper','Giấy vệ sinh','🧻'],['razor','Dao cạo','🪒'],['lotion','Kem dưỡng da','🧴'],['faucet','Vòi nước','🚰'],['rubber duck','Vịt cao su','🦆'],['bathtub','Bồn tắm','🛁'],['shower','Vòi hoa sen','🚿'],['soap','Xà phòng','🧼']]),
+    pkMk2('pk_bedtime', 52, 'vocab', 'Giờ Đi Ngủ (Bedtime)', 'Bedtime', [
+      ['bed','Cái giường','🛏️'],['sleep','Ngủ','😴'],['snore','Ngáy ngủ','💤'],['dream','Giấc mơ','💭'],['night','Ban đêm','🌃'],['alarm clock','Đồng hồ báo thức','⏰'],['bedtime story','Truyện trước khi ngủ','📖'],['yawn','Ngáp','🥱']]),
+    pkMk2('pk_funpark', 53, 'vocab', 'Công Viên Giải Trí (Amusement Park)', 'Amusement Park', [
+      ['roller coaster','Tàu lượn siêu tốc','🎢'],['ferris wheel','Vòng quay khổng lồ','🎡'],['carousel','Ngựa gỗ xoay tròn','🎠'],['circus','Rạp xiếc','🎪'],['ticket','Tấm vé','🎫'],['fireworks','Pháo hoa','🎆'],['juggling','Tung hứng','🤹'],['top hat','Mũ ảo thuật','🎩']]),
+    pkMk2('pk_drinks', 54, 'vocab', 'Đồ Uống (Drinks)', 'Drinks', [
+      ['juice','Nước ép','🧃'],['tea','Trà','🍵'],['coffee','Cà phê','☕'],['soda','Nước ngọt','🥤'],['baby bottle','Bình sữa','🍼'],['coconut','Quả dừa','🥥'],['ice','Đá lạnh','🧊'],['lemonade','Nước chanh','🍋']]),
+    pkMk2('pk_fastfood', 55, 'vocab', 'Đồ Ăn Nhanh (Fast Food)', 'Fast Food', [
+      ['pizza','Bánh pizza','🍕'],['hamburger','Bánh hăm-bơ-gơ','🍔'],['french fries','Khoai tây chiên','🍟'],['taco','Bánh taco','🌮'],['fried chicken','Gà rán','🍗'],['sushi','Cơm cuộn sushi','🍣'],['spaghetti','Mì Ý','🍝'],['dumpling','Bánh bao hấp','🥟']]),
+    pkMk2('pk_cooking', 56, 'vocab', 'Vào Bếp Nấu Ăn (Cooking)', 'Cooking', [
+      ['salt','Muối','🧂'],['butter','Bơ','🧈'],['frying pan','Cái chảo','🍳'],['recipe','Công thức nấu ăn','📜'],['cooking oil','Dầu ăn','🛢️'],['garlic','Củ tỏi','🧄'],['onion','Củ hành tây','🧅'],['chef','Đầu bếp','👨‍🍳']]),
+    pkMk2('pk_stationery', 57, 'vocab', 'Văn Phòng Phẩm (Stationery)', 'Stationery', [
+      ['crayon','Bút sáp màu','🖍️'],['folder','Tập hồ sơ','📁'],['clipboard','Bảng kẹp giấy','📋'],['paperclip','Kẹp giấy','📎'],['pushpin','Cái ghim','📌'],['calendar','Tờ lịch','📅'],['envelope','Phong bì thư','✉️'],['pen','Bút mực','🖊️']]),
+    pkMk2('pk_travel', 58, 'vocab', 'Đi Du Lịch (Travel)', 'Travel', [
+      ['suitcase','Va-li','🧳'],['take off','Cất cánh','🛫'],['landing','Hạ cánh','🛬'],['passport','Hộ chiếu','🛂'],['postcard','Bưu thiếp','💌'],['souvenir','Quà lưu niệm','🎁'],['map','Bản đồ','🗺️'],['globe','Quả địa cầu','🌍']]),
+    pkMk2('pk_landmarks', 59, 'vocab', 'Công Trình Nổi Tiếng (Landmarks)', 'Landmarks', [
+      ['tower','Ngọn tháp','🗼'],['bridge','Cây cầu','🌉'],['statue','Bức tượng','🗽'],['temple','Ngôi đền','🛕'],['fountain','Đài phun nước','⛲'],['skyscraper','Nhà chọc trời','🏙️'],['factory','Nhà máy','🏭'],['mosque','Nhà thờ Hồi giáo','🕌']]),
+    pkMk2('pk_green', 60, 'vocab', 'Sống Xanh Bảo Vệ Trái Đất (Go Green)', 'Go Green', [
+      ['recycle','Tái chế','♻️'],['trash bin','Thùng rác','🗑️'],['tree','Cái cây','🌳'],['seedling','Cây non','🌱'],['earth','Trái đất','🌏'],['leaf','Chiếc lá','🍃'],['plug','Phích cắm điện','🔌'],['drop','Giọt nước','💧']]),
+    pkMk2('pk_roadsafe', 61, 'vocab', 'An Toàn Giao Thông (Road Safety)', 'Road Safety', [
+      ['traffic light','Đèn giao thông','🚦'],['stop','Dừng lại','🛑'],['crosswalk','Vạch qua đường','🚸'],['no entry','Cấm vào','⛔'],['warning','Cảnh báo nguy hiểm','⚠️'],['parking','Bãi đỗ xe','🅿️'],['left','Bên trái','⬅️'],['right','Bên phải','➡️'],['up','Hướng lên','⬆️'],['down','Hướng xuống','⬇️']]),
+    pkMk2('pk_heroes', 62, 'vocab', 'Siêu Anh Hùng (Superheroes)', 'Superheroes', [
+      ['superhero','Siêu anh hùng','🦸'],['villain','Nhân vật phản diện','🦹'],['lightning','Tia chớp','⚡'],['strong','Mạnh mẽ','💪'],['robot','Người máy','🤖'],['alien','Người ngoài hành tinh','👽'],['monster','Quái vật','👹'],['rescue','Giải cứu','🆘']]),
+    pkMk2('pk_summer', 63, 'vocab', 'Mùa Hè Vui Vẻ (Summer Fun)', 'Summer Fun', [
+      ['beach umbrella','Ô che nắng bãi biển','⛱️'],['seashell','Vỏ sò','🐚'],['shaved ice','Đá bào','🍧'],['sandals','Dép quai hậu','👡'],['beach ball','Bóng bãi biển','🏐'],['bikini','Đồ bơi hai mảnh','👙'],['kite','Con diều','🪁'],['sunscreen','Kem chống nắng','🧴']]),
+    pkMk2('pk_watersports', 64, 'vocab', 'Thể Thao Dưới Nước & Mùa Đông (Water & Winter Sports)', 'Water & Winter Sports', [
+      ['swimming','Bơi lội','🏊'],['surfing','Lướt sóng','🏄'],['rowing','Chèo thuyền','🚣'],['diving','Lặn biển','🤿'],['snowboarding','Trượt ván tuyết','🏂'],['ice skating','Trượt băng','⛸️'],['sled','Xe trượt tuyết','🛷'],['water polo','Bóng nước','🤽']]),
+    pkMk2('pk_flowers', 65, 'vocab', 'Hoa & Cây Cỏ (Flowers & Plants)', 'Flowers & Plants', [
+      ['rose','Hoa hồng','🌹'],['sunflower','Hoa hướng dương','🌻'],['tulip','Hoa tulip','🌷'],['hibiscus','Hoa dâm bụt','🌺'],['clover','Cỏ ba lá','🍀'],['wilted flower','Hoa héo','🥀'],['bamboo','Cây tre','🎍'],['cherry blossom','Hoa anh đào','🌸']]),
+    pkMk2('pk_time', 66, 'vocab', 'Giờ Giấc Của Bé (Time)', 'Time', [
+      ['clock','Đồng hồ treo tường','🕐'],['watch','Đồng hồ đeo tay','⌚'],['hourglass','Đồng hồ cát','⏳'],['stopwatch','Đồng hồ bấm giờ','⏱️'],['timer','Hẹn giờ','⏲️'],['sunrise','Bình minh','🌄'],['slow','Chậm','🐌'],['fast','Nhanh','🐆']]),
+    pkMk2('pk_days', 67, 'vocab', 'Các Ngày Trong Tuần (Days of the Week)', 'Days of the Week', [
+      ['Monday','Thứ Hai','🌕'],['Tuesday','Thứ Ba','🔥'],['Wednesday','Thứ Tư','🌊'],['Thursday','Thứ Năm','⚡'],['Friday','Thứ Sáu','💖'],['Saturday','Thứ Bảy','🪐'],['Sunday','Chủ Nhật','☀️'],['weekend','Cuối tuần','🎉'],['week','Một tuần','🗓️'],['today','Hôm nay','📍'],['tomorrow','Ngày mai','⏭️'],['yesterday','Hôm qua','⏮️']]),
+    pkMk2('pk_months', 68, 'vocab', '12 Tháng Trong Năm (Months)', 'Months', [
+      ['January','Tháng Một','❄️'],['February','Tháng Hai','💘'],['March','Tháng Ba','🌱'],['April','Tháng Tư','☔'],['May','Tháng Năm','🌺'],['June','Tháng Sáu','🏖️'],['July','Tháng Bảy','🎇'],['August','Tháng Tám','🍉'],['September','Tháng Chín','🎒'],['October','Tháng Mười','🎃'],['November','Tháng Mười Một','🦃'],['December','Tháng Mười Hai','🎄']]),
+    pkMk2('pk_ordinal', 69, 'vocab', 'Số Thứ Tự (Ordinal Numbers)', 'Ordinal Numbers', [
+      ['first','Thứ nhất','🥇'],['fourth','Thứ tư','4️⃣'],['fifth','Thứ năm','5️⃣'],['sixth','Thứ sáu','6️⃣'],['seventh','Thứ bảy','7️⃣'],['eighth','Thứ tám','8️⃣'],['ninth','Thứ chín','9️⃣'],['tenth','Thứ mười','🔟']])
   ];
   PRESCHOOL_ACTS.push(...NEW_PK_TOPICS);
 
@@ -11504,13 +11657,20 @@ window.EBC_AI={getKey,callGemini,generateExam,defaultCount,validateItems,matrix,
   background:radial-gradient(circle at 20% 10%,rgba(217,239,122,.55),transparent 55%),radial-gradient(circle at 85% 90%,rgba(245,197,66,.45),transparent 55%),rgba(30,45,15,.78);
   backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 #ebcGate.on{display:flex}
-#ebcGate .eg-card{width:100%;max-width:26rem;text-align:center;padding:1.5rem 1.4rem 1.2rem;border-radius:1.4rem;
+#ebcGate .eg-card{width:100%;max-width:26rem;box-sizing:border-box;text-align:center;padding:1.4rem 1.5rem 1.2rem;border-radius:1.4rem;
   border:3px solid transparent;color:#2b3a14;
   background:linear-gradient(#fffdf2,#fff6d6) padding-box,linear-gradient(120deg,#6fae3a,#f5c542 50%,#e08a1e) border-box;
   box-shadow:0 18px 50px rgba(0,0,0,.35)}
 #ebcGate .eg-emoji{font-size:2.6rem;line-height:1}
-#ebcGate h2{margin:.35rem 0 .1rem;font-size:1.35rem;font-weight:900;color:#2f7d32}
-#ebcGate p.eg-sub{margin:0 0 .9rem;font-size:.82rem;font-weight:700;color:#5b6b2f}
+#ebcGate h2{margin:.5rem 0 0;display:flex;flex-direction:column;align-items:center;gap:.15rem;text-wrap:balance}
+#ebcGate .eg-hi{font-size:.78rem;font-weight:800;letter-spacing:.14em;color:#c2730f;text-transform:uppercase}
+#ebcGate .eg-brand{font-family:'Playfair Display',Georgia,serif;font-size:clamp(1.35rem,6.4vw,2rem);font-weight:900;line-height:1.1;
+  letter-spacing:.02em;white-space:nowrap;
+  background:linear-gradient(180deg,#2f7d32 0%,#3f9a2f 50%,#e08a1e 100%);-webkit-background-clip:text;background-clip:text;
+  color:transparent;-webkit-text-fill-color:transparent;filter:drop-shadow(0 2px 0 rgba(255,255,255,.9))}
+#ebcGate .eg-line{width:5.5rem;height:4px;border-radius:4px;margin:.6rem auto .55rem;
+  background:linear-gradient(90deg,#6fae3a,#f5c542,#e08a1e)}
+#ebcGate p.eg-sub{margin:0 auto .8rem;max-width:19rem;font-size:.84rem;font-weight:700;line-height:1.4;color:#5b6b2f;text-wrap:balance}
 #ebcGate label{display:block;text-align:left;font-size:.8rem;font-weight:900;margin:.55rem 0 .2rem;color:#3b4a1c}
 #ebcGate label i{color:#e11d48;font-style:normal}
 #ebcGate input{width:100%;box-sizing:border-box;padding:.65rem .8rem;border-radius:.8rem;font-size:1rem;font-weight:800;
@@ -11528,8 +11688,9 @@ window.EBC_AI={getKey,callGemini,generateExam,defaultCount,validateItems,matrix,
 <div id="ebcGate" role="dialog" aria-modal="true" aria-labelledby="egTitle">
   <div class="eg-card">
     <div class="eg-emoji">🏕️</div>
-    <h2 id="egTitle">Chào mừng em đến English Base Camp!</h2>
-    <p class="eg-sub">Em nhập tên (họ tên đầy đủ hoặc tên tắt) để cô ghi nhận bài học nhé.</p>
+    <h2 id="egTitle"><span class="eg-hi">✦ Chào mừng em đến ✦</span><span class="eg-brand">ENGLISH BASE CAMP</span></h2>
+    <div class="eg-line" aria-hidden="true"></div>
+    <p class="eg-sub">Em nhập tên của mình để hệ thống ghi nhận bài học tiếp theo nhé!</p>
     <label for="egName">Họ tên hoặc tên tắt <i>*</i> <span style="font-weight:700;color:#7a8a4a">(bắt buộc)</span></label>
     <input id="egName" type="text" autocomplete="name" maxlength="60" placeholder="Ví dụ: Nguyễn Văn An hoặc An">
     <label for="egClass">Lớp <span style="font-weight:700;color:#7a8a4a">(không bắt buộc)</span></label>
@@ -11546,6 +11707,26 @@ window.EBC_AI={getKey,callGemini,generateExam,defaultCount,validateItems,matrix,
         msg=document.getElementById('egMsg');
   if(!gate||!window.EBC_GATE)return;
   const teacherOk=()=>{try{if(typeof fbAuth!=='undefined'&&fbAuth)return !!authUser;return !!teacherUnlocked}catch(e){return false}};
+  /* ---- Giọng đọc lời chào ---- */
+  const WELCOME_TEXT='Welcome to English Base Camp! Please enter your name to start.';
+  const userActive=()=>{try{return navigator.userActivation?navigator.userActivation.hasBeenActive:true}catch(e){return true}};
+  const welcome=()=>{
+    try{if(window.TTA_TTS&&window.speechSynthesis)TTA_TTS.say(WELCOME_TEXT,{lang:'en-US',rate:.86,pitch:1.1})}catch(e){}
+  };
+  let armed=false;
+  /* Trình duyệt chặn tự phát tiếng khi chưa ai chạm vào trang -> đọc ngay ở lần chạm / bấm phím đầu tiên */
+  const armFirstTouch=()=>{
+    if(armed)return;armed=true;
+    const evs=['pointerdown','keydown','touchstart'];
+    const go=e=>{
+      evs.forEach(ev=>removeEventListener(ev,go,true));armed=false;
+      if(!gate.classList.contains('on'))return;
+      if(e&&e.target&&e.target.closest&&e.target.closest('#egGo,#egTeacher'))return;
+      welcome();
+    };
+    evs.forEach(ev=>addEventListener(ev,go,{capture:true,passive:true}));
+  };
+
   const needGate=()=>!teacherOk()&&!window.EBC_GATE.ok();
   const lock=on=>{ /* khóa thao tác phía sau bằng inert để Tab/bàn phím không lọt xuống */
     [...document.body.children].forEach(el=>{
@@ -11559,6 +11740,9 @@ window.EBC_AI={getKey,callGemini,generateExam,defaultCount,validateItems,matrix,
     nameI.value=l.name||'';clsI.value=l.cls||'';msg.textContent='';nameI.classList.remove('bad');
     gate.classList.add('on');lock(true);
     setTimeout(()=>{try{nameI.focus();nameI.select()}catch(e){}},30);
+    /* Lời chào bằng giọng nói ngay khi hiện bảng; dùng cờ này để lời chào chung của trang không đọc chồng lên */
+    try{sessionStorage.setItem('tta_greeted','1')}catch(e){}
+    if(userActive())welcome();else armFirstTouch();
   };
   const hide=()=>{gate.classList.remove('on');lock(false)};
   const ensure=()=>{if(needGate())show()};
@@ -11574,7 +11758,10 @@ window.EBC_AI={getKey,callGemini,generateExam,defaultCount,validateItems,matrix,
     hide();
     const pm=document.getElementById('pinModal');if(pm)pm.classList.add('hidden');
     try{window.setMode('s')}catch(e){}
-    try{const a=window.EBC_XP&&EBC_XP.me();notify('Xin chào '+(a?a.name:name)+'! Chúc em học vui 🎉')}catch(e){}
+    try{
+      const a=window.EBC_XP&&EBC_XP.me(),full=(a?a.name:name),given=full.split(' ').pop();
+      if(window.TTAgreet)TTAgreet(given);else notify('Xin chào '+full+'! Chúc em học vui 🎉');
+    }catch(e){}
   };
   document.getElementById('egGo').addEventListener('click',submit);
   [nameI,clsI].forEach(i=>i.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();submit()}}));
