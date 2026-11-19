@@ -1,7 +1,7 @@
 /* English Base Camp – Service Worker
  * ĐỔI SỐ VERSION khi sửa sw.js, đổi danh sách PRECACHE hoặc muốn xóa sạch cache cũ.
  * Sửa riêng index.html thì KHÔNG bắt buộc đổi (trang HTML luôn ưu tiên lấy từ mạng). */
-const VERSION = 'ebc-v11';
+const VERSION = 'ebc-v12';
 const CORE = `${VERSION}-core`;
 const RUNTIME = `${VERSION}-runtime`;
 const PRECACHE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
